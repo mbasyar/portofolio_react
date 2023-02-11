@@ -17,7 +17,7 @@ function Jumbotron () {
             {/* <title>Portfolio Basyar</title> */}
             {/*navbar*/}
             <nav className="navbar navbar-expand-lg navbar-light"  style={{backgroundColor: 'rgb(165, 167, 177)'}}>
-              <div className="container">
+              <div className="container p-2">
                 <a className="navbar-brand" href="#home">M KHOIRUL BASYAR</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
@@ -61,21 +61,21 @@ function Jumbotron () {
                   </div>
                 </div>
                 <div className="row text-center">
-                  <div className="col-4">
+                  <div className="col-md-4 col-sm-12 ">
                     <div className="card p-2">
                       <i className="fa-solid fa-user-graduate fa-5x mb-2" />
                       <h3>Student</h3>
                       <p>Saya adalah Mahasiswa Perguruan Tinggi Swasta DiJakarta, Prodi Teknik Informatika.</p>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
                       <i className="fa-solid fa-award fa-5x mb-2" />
                       <h3>DiCoding Academy</h3>
                       <p>Saya telah mengikuti DiCoding selama 4 bulan dan telah mendapatkan 4 sertifikat.</p>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
                       <i className="fa-solid fa-laptop-code fa-5x mb-2" />
                       <h3>Eduwork Bootcamp</h3>
@@ -86,37 +86,37 @@ function Jumbotron () {
               </div>
               <div className="container">
                 <div className="row text-center pt-5">
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/html-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>HTML</h3>
                   </div>
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/css-3.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>CSS</h3>
                   </div>
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/javascript-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>JAVASCRIPT</h3>
                   </div>
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/react-2.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>REACTJS</h3>
                   </div>
                 </div>
                 <div className="row text-center py-5">
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/git-bash.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>GIT BASH</h3>
                   </div>
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/git-icon.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>GIT</h3>
                   </div>
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/github-icon-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>GITHUB</h3>
                   </div>
-                  <div className="col-3">
+                  <div className="col-md-3 col-sm-6">
                     <img src="./img/nodejs-icon.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>NODE JS</h3>
                   </div>
@@ -132,7 +132,7 @@ function Jumbotron () {
                   </div>
                 </div>
                 <div className="row text-center">
-                  <div className="col-4">
+                  <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
                       <img src="img/background3.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Toko Online</h3>
@@ -142,7 +142,7 @@ function Jumbotron () {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
                       <img src="img/background2.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Rumah Kopi</h3>
@@ -152,7 +152,7 @@ function Jumbotron () {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
                       <img src="img/background1.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Portofolio</h3>
