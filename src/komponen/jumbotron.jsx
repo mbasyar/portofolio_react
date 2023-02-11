@@ -41,13 +41,14 @@ function Jumbotron () {
               </div>
             </nav>
             {/*jumbotron*/}
-           
-            <div className="container my-5">
-              <div className="jumbotron m-0">
-                <div className="text-center">
-                  <img src="img/irul.jpg" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
-                  <h1 className="my-1">M KHOIRUL BASYAR</h1>
-                  <h5>Frontend developer</h5>
+            <div className="container-fluid py-5" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+              <div className="container">
+                <div className="jumbotron m-0">
+                  <div className="text-center">
+                    <img src="img/irul.jpg" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
+                    <h1 className="my-1">M KHOIRUL BASYAR</h1>
+                    <h5>Frontend developer</h5>
+                  </div>
                 </div>
               </div>
             </div>
@@ -123,7 +124,7 @@ function Jumbotron () {
               </div>
             </div>
             {/*content*/}
-            <div className="container-fluid pt-5" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+            <div className="container-fluid py-4" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
               <div className="container my-5 pb-5">
                 <div className="row">
                   <div className="col text-center my-5">
@@ -202,7 +203,7 @@ function Jumbotron () {
             </div>
             {/*akhir contact*/}
             {/*footer*/}
-            <footer className="bg-transparent text-center text-white pb-3">
+            <footer className="text-center text-white p-5 bg-primary">
               <h5>COPYRIGHT 2023 | DICODING</h5>
             </footer>
           </div>
