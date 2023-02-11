@@ -53,7 +53,7 @@ function Jumbotron () {
               </div>
             </div>
             {/*content*/}
-            <div className="container-fluid pt-5" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+            <div className="container-fluid pt-3" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
               <div className="container">
                 <div className="row">
                   <div className="col text-center my-5">
@@ -165,7 +165,7 @@ function Jumbotron () {
                 </div>
               </div>
               {/*contact*/}
-              <div className="container py-5" style={{marginTop: '100px', marginBottom: '100px'}}>
+              <div className="container py-5" style={{marginTop: '75px', marginBottom: '100px'}}>
                 <div className="row text-center mb-3">
                   <div className="col">
                     <h2>CONTACT ME</h2>
