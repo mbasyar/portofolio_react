@@ -45,7 +45,7 @@ function Jumbotron () {
               <div className="container">
                 <div className="jumbotron m-0">
                   <div className="text-center">
-                    <img src="img/irul.jpg" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
+                    <img src="img/irul.png" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
                     <h1 className="my-1">M KHOIRUL BASYAR</h1>
                     <h5>Frontend developer</h5>
                   </div>
