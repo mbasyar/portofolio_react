@@ -14,27 +14,27 @@ function Jumbotron () {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
             {/*google font*/}
             <style dangerouslySetInnerHTML={{__html: "\n      @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:ital,wght@0,400;0,500;1,400;1,600&display=swap');\n    " }} />
-            <title>Portfolio Basyar</title>
+            {/* <title>Portfolio Basyar</title> */}
             {/*navbar*/}
             <nav className="navbar navbar-expand-lg navbar-light"  style={{backgroundColor: 'rgb(165, 167, 177)'}}>
               <div className="container">
-                <a className="navbar-brand" href="#">M KHOIRUL BASYAR</a>
+                <a className="navbar-brand" href="#home">M KHOIRUL BASYAR</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className="navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav mx-auto">
                     <li className="nav-item mx-2">
-                      <a className="nav-link active" aria-current="page" href="#"><i className="fa-solid fa-house mx-1" />HOME</a>
+                      <a className="nav-link active" aria-current="page" href="#home"><i className="fa-solid fa-house mx-1" />HOME</a>
                     </li>
                     <li className="nav-item mx-2">
-                      <a className="nav-link" href="#">ABOUT</a>
+                      <a className="nav-link" href="#home">ABOUT</a>
                     </li>
                     <li className="nav-item mx-2">
-                      <a className="nav-link" href="#">PROJECT</a>
+                      <a className="nav-link" href="#home">PROJECT</a>
                     </li>
                     <li className="nav-item mx-2">
-                      <a className="nav-link" href="#">CONTACT</a>
+                      <a className="nav-link" href="#home">CONTACT</a>
                     </li>
                   </ul>
                 </div>
@@ -45,9 +45,9 @@ function Jumbotron () {
             <div className="container my-5">
               <div className="jumbotron m-0">
                 <div className="text-center">
-                  <img src="img/irul.jpg" height="200px" width="200px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
+                  <img src="img/irul.jpg" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
                   <h1 className="my-1">M KHOIRUL BASYAR</h1>
-                  <h5>Fullstack Develouper</h5>
+                  <h5>Frontend developer</h5>
                 </div>
               </div>
             </div>
@@ -86,37 +86,37 @@ function Jumbotron () {
               <div className="container">
                 <div className="row text-center pt-5">
                   <div className="col-3">
-                    <img src="./img/html-1.svg" style={{width: '100px'}} />
+                    <img src="./img/html-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>HTML</h3>
                   </div>
                   <div className="col-3">
-                    <img src="./img/css-3.svg" style={{width: '100px'}} />
+                    <img src="./img/css-3.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>CSS</h3>
                   </div>
                   <div className="col-3">
-                    <img src="./img/javascript-1.svg" style={{width: '100px'}} />
+                    <img src="./img/javascript-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>JAVASCRIPT</h3>
                   </div>
                   <div className="col-3">
-                    <img src="./img/react-2.svg" style={{width: '100px'}} />
+                    <img src="./img/react-2.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>REACTJS</h3>
                   </div>
                 </div>
                 <div className="row text-center py-5">
                   <div className="col-3">
-                    <img src="./img/git-bash.svg" style={{width: '100px'}} />
+                    <img src="./img/git-bash.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>GIT BASH</h3>
                   </div>
                   <div className="col-3">
-                    <img src="./img/git-icon.svg" style={{width: '100px'}} />
+                    <img src="./img/git-icon.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>GIT</h3>
                   </div>
                   <div className="col-3">
-                    <img src="./img/github-icon-1.svg" style={{width: '100px'}} />
+                    <img src="./img/github-icon-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>GITHUB</h3>
                   </div>
                   <div className="col-3">
-                    <img src="./img/nodejs-icon.svg" style={{width: '100px'}} />
+                    <img src="./img/nodejs-icon.svg"  alt="gambar basyar"  style={{width: '100px'}} />
                     <h3>NODE JS</h3>
                   </div>
                 </div>
@@ -133,7 +133,7 @@ function Jumbotron () {
                 <div className="row text-center">
                   <div className="col-4">
                     <div className="card p-2">
-                      <img src="img/background3.jpg" className="img-fluid" />
+                      <img src="img/background3.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Toko Online</h3>
                       <ul className="list-group py-2 text-justify">
                         <li>github: <a href="https://google.com">Click Me</a></li>
@@ -143,7 +143,7 @@ function Jumbotron () {
                   </div>
                   <div className="col-4">
                     <div className="card p-2">
-                      <img src="img/background2.jpg" className="img-fluid" />
+                      <img src="img/background2.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Rumah Kopi</h3>
                       <ul className="list-group py-2 text-justify">
                         <li>github: <a href="https://google.com">Click Me</a></li>
@@ -153,7 +153,7 @@ function Jumbotron () {
                   </div>
                   <div className="col-4">
                     <div className="card p-2">
-                      <img src="img/background1.jpg" />
+                      <img src="img/background1.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Portofolio</h3>
                       <ul className="list-group py-2 text-justify">
                         <li>github: <a href="https://google.com">Click Me</a></li>
