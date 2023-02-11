@@ -88,11 +88,11 @@ function Jumbotron () {
                 <div className="row text-center pt-5">
                   <div className="col-md-3 col-sm-6">
                     <img src="./img/html-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>HTML</h3>
+                    <h3>HTML5</h3>
                   </div>
                   <div className="col-md-3 col-sm-6">
                     <img src="./img/css-3.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>CSS</h3>
+                    <h3>CSS3</h3>
                   </div>
                   <div className="col-md-3 col-sm-6">
                     <img src="./img/javascript-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
