@@ -14,7 +14,6 @@ function MainPage () {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
             {/*google font*/}
             <style dangerouslySetInnerHTML={{__html: "\n      @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:ital,wght@0,400;0,500;1,400;1,600&display=swap');\n    " }} />
-            <style dangerouslySetInnerHTML={{__html: "\n     @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');\n    " }} />
             {/* <title>Portfolio Basyar</title> */}
             {/*navbar*/}
             <nav className="navbar navbar-expand-lg navbar-light"  style={{backgroundColor: '#a4b7c0'}}>
@@ -43,7 +42,7 @@ function MainPage () {
             </nav>
             {/*jumbotron*/}
             <div className="container-fluid py-5" style={{backgroundColor: '#a4b7c0'}} id="home">
-              <div className="container">
+              <div className="container bg-light">
                 <div className="jumbotron m-0">
                   <div className="text-center">
                     <img src="img/irul.png" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />

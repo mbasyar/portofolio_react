@@ -1,5 +1,6 @@
 * {
-  font-family: 'Kalam', cursive;
+  font-family: 'Carter One', cursive;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,7 +22,7 @@
 }
 .jumbotron {
   padding-top: 6rem;
-  background-color: white;
+  background-color: rgb(252, 0, 0);
 }
 .container {
   background-color: white;
@@ -32,12 +33,11 @@ ul li {
   color: rgb(0, 0, 0);
   padding-left: 0px;
 }
- h1{
+h4 , h1{
   color: #402a0d;
-  font-family: 'Kalam', cursive;
 }
-h4 {
-  font-family: 'Kalam', cursive;
+h3 {
+  margin: 10px 0px;
 }
 h5 {
   color: black;
