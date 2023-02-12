@@ -25,7 +25,7 @@ function MainPage () {
                 <div className="navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav mx-auto">
                     <li className="nav-item mx-2">
-                      <a className="nav-link active" aria-current="page" href="#home"><i className="fa-solid fa-house mx-1" />HOME</a>
+                      <a className="nav-link active" aria-current="page" href="#home">HOME</a>
                     </li>
                     <li className="nav-item mx-2">
                       <a className="nav-link" href="#about">ABOUT</a>
@@ -134,7 +134,7 @@ function MainPage () {
                 <div className="row text-center">
                   <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
-                      <img src="img/background3.jpg"  alt="gambar basyar" />
+                      <img src="img/guin.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Anime Movies</h3>
                       <ul className="list-group py-2 text-justify">
                         <li>Github: <a href="https://google.com">Lihat SourceCode</a></li>
@@ -144,7 +144,7 @@ function MainPage () {
                   </div>
                   <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
-                      <img src="img/background2.jpg"  alt="gambar basyar" />
+                      <img src="img/project2.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Rumah Kopi</h3>
                       <ul className="list-group py-2 text-justify">
                       <li>Github: <a href="https://google.com">Lihat SourceCode</a></li>
@@ -154,7 +154,7 @@ function MainPage () {
                   </div>
                   <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
-                      <img src="img/background1.jpg"  alt="gambar basyar" />
+                      <img src="img/project.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Portofolio</h3>
                       <ul className="list-group py-2 text-justify">
                       <li>Github: <a href="https://google.com">Lihat SourceCode</a></li>
