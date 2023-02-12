@@ -176,15 +176,15 @@ function MainPage () {
                     <form>
                       <div className="mb-3">
                         <label htmlFor="nama" className="form-label">NAMA</label>
-                        <input type="text" className="form-control" placeholder="ex: puan mahalani" />
+                        <input type="text" className="form-control" placeholder="Jejak SiGembul" />
                       </div>
                       <div className="mb-3">
                         <label htmlFor="email" className="form-label">ALAMAT EMAIL</label>
-                        <input type="email" className="form-control" placeholder="cieGembul@gmail.com" />
+                        <input type="email" className="form-control" placeholder="jejaksiGembul@gmail.com" />
                       </div>
                       <div className="mb-3">
                         <label htmlFor="telp" className="form-label">NO TELEPON</label>
-                        <input type="tel" className="form-control" placeholder="0987654321" />
+                        <input type="tel" className="form-control" placeholder="08788194564" />
                       </div>
                       <select className="form-control">
                         <option>--pilih kategori--</option>
