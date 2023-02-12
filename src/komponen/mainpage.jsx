@@ -1,6 +1,6 @@
 
 
-function Jumbotron () {
+function MainPage () {
   return (
    
           <div>
@@ -16,7 +16,7 @@ function Jumbotron () {
             <style dangerouslySetInnerHTML={{__html: "\n      @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:ital,wght@0,400;0,500;1,400;1,600&display=swap');\n    " }} />
             {/* <title>Portfolio Basyar</title> */}
             {/*navbar*/}
-            <nav className="navbar navbar-expand-lg navbar-light"  style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+            <nav className="navbar navbar-expand-lg navbar-light"  style={{backgroundColor: '#a4b7c0'}}>
               <div className="container p-2">
                 <a className="navbar-brand mx-2" href="https://github.com/mbasyar"><i class="fa-brands fa-github mx-1"></i>M BASYAR</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,20 +28,20 @@ function Jumbotron () {
                       <a className="nav-link active" aria-current="page" href="#home"><i className="fa-solid fa-house mx-1" />HOME</a>
                     </li>
                     <li className="nav-item mx-2">
-                      <a className="nav-link" href="#home">ABOUT</a>
+                      <a className="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li className="nav-item mx-2">
-                      <a className="nav-link" href="#home">PROJECT</a>
+                      <a className="nav-link" href="#project">PROJECT</a>
                     </li>
                     <li className="nav-item mx-2">
-                      <a className="nav-link" href="#home">CONTACT</a>
+                      <a className="nav-link" href="#contact">CONTACT</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </nav>
             {/*jumbotron*/}
-            <div className="container-fluid py-5" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+            <div className="container-fluid py-5" style={{backgroundColor: '#a4b7c0'}} id="home">
               <div className="container">
                 <div className="jumbotron m-0">
                   <div className="text-center">
@@ -53,7 +53,7 @@ function Jumbotron () {
               </div>
             </div>
             {/*content*/}
-            <div className="container-fluid pt-3" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+            <div className="container-fluid pt-3" style={{backgroundColor: '#a4b7c0'}} id="about">
               <div className="container">
                 <div className="row">
                   <div className="col text-center my-5">
@@ -84,7 +84,7 @@ function Jumbotron () {
                   </div>
                 </div>
               </div>
-              <div className="container">
+              <div className="container pt-4">
                 <div className="row text-center pt-5">
                   <div className="col-md-3 col-sm-6">
                     <img src="./img/html-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
@@ -124,7 +124,7 @@ function Jumbotron () {
               </div>
             </div>
             {/*content*/}
-            <div className="container-fluid py-4" style={{backgroundColor: 'rgb(165, 167, 177)'}}>
+            <div className="container-fluid py-4" style={{backgroundColor: '#a4b7c0'}} id="project">
               <div className="container my-5 pb-5">
                 <div className="row">
                   <div className="col text-center my-5">
@@ -135,10 +135,10 @@ function Jumbotron () {
                   <div className="col-md-4 col-sm-12">
                     <div className="card p-2">
                       <img src="img/background3.jpg"  alt="gambar basyar" />
-                      <h3 className="my-2">Toko Online</h3>
+                      <h3 className="my-2">Anime Movies</h3>
                       <ul className="list-group py-2 text-justify">
-                        <li>github: <a href="https://google.com">Click Me</a></li>
-                        <li>Netlify:</li>
+                        <li>Github: <a href="https://google.com">Lihat SourceCode</a></li>
+                        <li>Netlify: <a href="https://google.com">Lihat Demo</a></li>
                       </ul>
                     </div>
                   </div>
@@ -147,8 +147,8 @@ function Jumbotron () {
                       <img src="img/background2.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Rumah Kopi</h3>
                       <ul className="list-group py-2 text-justify">
-                        <li>github: <a href="https://google.com">Click Me</a></li>
-                        <li>Netlify:</li>
+                      <li>Github: <a href="https://google.com">Lihat SourceCode</a></li>
+                        <li>Netlify: <a href="https://google.com">Lihat Demo</a></li>
                       </ul>
                     </div>
                   </div>
@@ -157,15 +157,15 @@ function Jumbotron () {
                       <img src="img/background1.jpg"  alt="gambar basyar" />
                       <h3 className="my-2">Portofolio</h3>
                       <ul className="list-group py-2 text-justify">
-                        <li>github: <a href="https://google.com">Click Me</a></li>
-                        <li>Netlify:</li>
+                      <li>Github: <a href="https://google.com">Lihat SourceCode</a></li>
+                        <li>Netlify: <a href="https://google.com">Lihat Demo</a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
               {/*contact*/}
-              <div className="container py-5" style={{marginTop: '75px', marginBottom: '100px'}}>
+              <div className="container py-5" style={{marginTop: '75px', marginBottom: '100px'}} id="contact">
                 <div className="row text-center mb-3">
                   <div className="col">
                     <h2>CONTACT ME</h2>
@@ -176,23 +176,23 @@ function Jumbotron () {
                     <form>
                       <div className="mb-3">
                         <label htmlFor="nama" className="form-label">NAMA</label>
-                        <input type="text" className="form-control" placeholder="masukan nama" />
+                        <input type="text" className="form-control" placeholder="ex: puan mahalani" />
                       </div>
                       <div className="mb-3">
                         <label htmlFor="email" className="form-label">ALAMAT EMAIL</label>
-                        <input type="email" className="form-control" placeholder="masukan alamat email" />
+                        <input type="email" className="form-control" placeholder="cieGembul@gmail.com" />
                       </div>
                       <div className="mb-3">
                         <label htmlFor="telp" className="form-label">NO TELEPON</label>
-                        <input type="tel" className="form-control" placeholder="masukan no telpon" />
+                        <input type="tel" className="form-control" placeholder="0987654321" />
                       </div>
                       <select className="form-control">
                         <option>--pilih kategori--</option>
                         <option>Mau Ngajak Main</option>
                         <option>Mau Traktir kopi</option>
                       </select>
-                      <div className="form-group">
-                        <label htmlFor="pesan">PESAN</label>
+                      <div className="form-group mt-2">
+                        <label htmlFor="pesan" className="form-label">PESAN</label>
                         <textarea className="form-control" rows={5} placeholder="masukan pesan" defaultValue={" "} />
                       </div>
                       <button type="submit" className="btn btn-primary mb-3">KIRIM PESAN</button>
@@ -203,11 +203,11 @@ function Jumbotron () {
             </div>
             {/*akhir contact*/}
             {/*footer*/}
-            <footer className="text-center text-white p-5 bg-primary">
-              <h5>COPYRIGHT 2023 | DICODING</h5>
+            <footer className="text-center text-white p-3 bg-light">
+              <a href="#home"><h5>COPYRIGHT 2023 | DICODING</h5></a>
             </footer>
           </div>
         );
 }
 
-export default Jumbotron;
+export default MainPage;

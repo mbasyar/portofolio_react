@@ -1,11 +1,11 @@
 import './App.css';
-import Jumbotron from './komponen/jumbotron';
+import MainPage from './komponen/mainpage';
 
 
 function App() {
   return ( 
     <div>
-      <Jumbotron />
+      <MainPage />
     </div>
   );
 }
