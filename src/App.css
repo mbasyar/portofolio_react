@@ -1,6 +1,5 @@
 * {
-  font-family: 'Carter One', cursive;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kalam', cursive;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -33,11 +32,12 @@ ul li {
   color: rgb(0, 0, 0);
   padding-left: 0px;
 }
-h3 , h1{
+ h1{
   color: #402a0d;
+  font-family: 'Kalam', cursive;
 }
-h3 {
-  margin: 10px 0px;
+h4 {
+  font-family: 'Kalam', cursive;
 }
 h5 {
   color: black;
