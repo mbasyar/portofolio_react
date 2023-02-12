@@ -18,7 +18,7 @@ function Jumbotron () {
             {/*navbar*/}
             <nav className="navbar navbar-expand-lg navbar-light"  style={{backgroundColor: 'rgb(165, 167, 177)'}}>
               <div className="container p-2">
-                <a className="navbar-brand" href="#home">M KHOIRUL BASYAR</a>
+                <a className="navbar-brand mx-2" href="https://github.com/mbasyar"><i class="fa-brands fa-github mx-1"></i>M BASYAR</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
                 </button>
@@ -47,7 +47,7 @@ function Jumbotron () {
                   <div className="text-center">
                     <img src="img/irul.png" height="160px" width="160px" className="img-thumbnail rounded-circle" alt="gambar basyar" />
                     <h1 className="my-1">M KHOIRUL BASYAR</h1>
-                    <h5>Frontend developer</h5>
+                    <h5>Frontend developer <i class="fa-solid fa-code"></i></h5>
                   </div>
                 </div>
               </div>
