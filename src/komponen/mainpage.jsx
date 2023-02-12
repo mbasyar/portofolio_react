@@ -84,41 +84,41 @@ function MainPage () {
                   </div>
                 </div>
               </div>
-              <div className="container pt-4">
-                <div className="row text-center pt-5">
+              <div className="container pt-md-4">
+                <div className="row text-center pt-md-5">
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/html-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>HTML5</h3>
+                    <img src="./img/html-1.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">HTML5</h4>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/css-3.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>CSS3</h3>
+                    <img src="./img/css-3.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">CSS3</h4>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/javascript-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>JAVASCRIPT</h3>
+                    <img src="./img/javascript-1.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">JAVASCRIPT</h4>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/react-2.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>REACTJS</h3>
+                    <img src="./img/react-2.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">REACTJS</h4>
                   </div>
                 </div>
                 <div className="row text-center py-5">
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/git-bash.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>GIT BASH</h3>
+                    <img src="./img/git-bash.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">GIT BASH</h4>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/git-icon.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>GIT</h3>
+                    <img src="./img/git-icon.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">GIT</h4>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/github-icon-1.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>GITHUB</h3>
+                    <img src="./img/github-icon-1.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">GITHUB</h4>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <img src="./img/nodejs-icon.svg"  alt="gambar basyar"  style={{width: '100px'}} />
-                    <h3>NODE JS</h3>
+                    <img src="./img/nodejs-icon.svg"  alt="gambar basyar"  style={{width: '75px'}} />
+                    <h4 className="my-2">NODE JS</h4>
                   </div>
                 </div>
               </div>
@@ -165,7 +165,7 @@ function MainPage () {
                 </div>
               </div>
               {/*contact*/}
-              <div className="container py-5" style={{marginTop: '75px', marginBottom: '100px'}} id="contact">
+              <div className="container py-5 my-md-5" id="contact">
                 <div className="row text-center mb-3">
                   <div className="col">
                     <h2>CONTACT ME</h2>
